@@ -1,0 +1,9 @@
+/* Estilo del TA10 */
+.externo{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
