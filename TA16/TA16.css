@@ -1,4 +1,4 @@
-@media(width: 1440px){
+@media(min-width: 1440px){
     body{background-color: red;
     }
     p{
@@ -8,7 +8,7 @@
         width: 50%;
     }
 }
-@media(width: 768px){
+@media(max-width: 768px){
     body{background-color: green;
     }
     p{
@@ -18,7 +18,7 @@
         width: 70%;
     }
 }
-@media(width: 425px){
+@media(max-width: 426px){
     body{background-color: blue;
     }
     p{
