@@ -1,3 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
 .perfil{
+    position: relative; /*Hace que los hijos se puedan posicionar de forma absoulta*/
+    border-radius: 7%;
+    width: 300px;
+    padding: 20px;
+    border-color: black;
+    background-color: greenyellow;
+    text-align: center;
+}
+img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    border-radius: 50%;
+    height: 80px;
+    align-self: flex-start;
     
+}
+
+button:hover{
+    background-color: darkgray;
 }
